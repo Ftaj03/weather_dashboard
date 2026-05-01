@@ -1,16 +1,114 @@
-# React + Vite
+# 🌦️ Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive **Weather Dashboard** that provides real-time weather data and a **5-day forecast** using the OpenWeather API. This project allows users to search for any city and view detailed weather conditions, including temperature, humidity, wind speed, and forecast trends.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🌍 Search weather by city name
+* 🌡️ Current weather conditions
+* 📅 5-day weather forecast
+* 📊 Temperature trends and insights
+* 💨 Wind speed and humidity details
+* 🎯 Clean and responsive UI
+* ⚡ Fast API integration
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** HTML, CSS, JavaScript
+* **API:** OpenWeather API
+* **Charts (optional):** Chart.js
+* **Maps (optional):** Leaflet
+
+---
+
+## 📦 Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/weather-dashboard.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd weather-dashboard
+```
+
+3. Open the project in your browser or use Live Server in VS Code.
+
+---
+
+## 🔑 API Setup
+
+1. Go to OpenWeather website
+2. Create a free account
+3. Generate your API key
+4. Replace the API key in your JavaScript file:
+
+```javascript
+const API_KEY = "your_api_key_here";
+```
+
+---
+
+## 📊 How It Works
+
+* User enters a city name
+* The app fetches data from OpenWeather API
+* Displays:
+
+  * Current weather
+  * Temperature
+  * Weather condition (e.g., cloudy, sunny)
+* Shows a **5-day forecast** using API data
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here if available)
+
+---
+
+## 📈 Future Improvements
+
+* 🌙 Dark/Light mode toggle
+* 📍 Auto-detect user location
+* 🔔 Weather alerts & notifications
+* 🗺️ Interactive weather maps
+* 📱 Progressive Web App (PWA) support
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork the repo and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 🙌 Acknowledgements
+
+* OpenWeather API for providing weather data
+* Inspiration from modern weather applications
+
+---
+
+## 📬 Contact
+
+If you have any questions or suggestions, feel free to reach out!
+
+---
+
+✨ *Built with passion for learning and development*
