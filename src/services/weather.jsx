@@ -1,5 +1,5 @@
 // This is a LIMITED test key - only works for a few cities
-const API_KEY = "452db16970819a7f48350f8050429d3a";
+const API_KEY = "bd5e378503939ddaee76f12ad7a97608";
 export const fetchWeather = async (city) => {
   try {
     console.log("Fetching weather for:", city);
